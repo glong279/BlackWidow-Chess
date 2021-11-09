@@ -1,12 +1,12 @@
-package com.chess.tests;
+package com.ches.tests;
 
-import com.chess.engine.classic.board.Board;
-import com.chess.engine.classic.board.BoardUtils;
-import com.chess.engine.classic.board.Move;
-import com.chess.engine.classic.board.MoveTransition;
-import com.chess.engine.classic.player.ai.MoveStrategy;
-import com.chess.engine.classic.player.ai.StockAlphaBeta;
-import com.chess.pgn.FenUtilities;
+import com.ches.engine.classic.board.Board;
+import com.ches.engine.classic.board.BoardUtils;
+import com.ches.engine.classic.board.Move;
+import com.ches.engine.classic.board.MoveTransition;
+import com.ches.engine.classic.player.ai.MoveStrategy;
+import com.ches.engine.classic.player.ai.StockAlphaBeta;
+import com.ches.pgn.FenUtilities;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertTrue;

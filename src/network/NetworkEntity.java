@@ -5,8 +5,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
-import com.chess.engine.classic.board.Board;
-import com.chess.engine.classic.board.Move;
+import com.ches.engine.classic.board.Board;
+import com.ches.engine.classic.board.Move;
 
 public abstract class NetworkEntity extends Thread {
 

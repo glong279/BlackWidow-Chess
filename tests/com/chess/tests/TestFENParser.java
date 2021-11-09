@@ -1,10 +1,10 @@
-package com.chess.tests;
+package com.ches.tests;
 
-import com.chess.pgn.FenUtilities;
-import com.chess.engine.classic.board.Board;
-import com.chess.engine.classic.board.BoardUtils;
-import com.chess.engine.classic.board.Move;
-import com.chess.engine.classic.board.MoveTransition;
+import com.ches.pgn.FenUtilities;
+import com.ches.engine.classic.board.Board;
+import com.ches.engine.classic.board.BoardUtils;
+import com.ches.engine.classic.board.Move;
+import com.ches.engine.classic.board.MoveTransition;
 import org.junit.Test;
 
 import java.io.IOException;

@@ -1,13 +1,13 @@
-package com.chess.tests;
+package com.ches.tests;
 
-import com.chess.engine.classic.Alliance;
-import com.chess.engine.classic.board.Board;
-import com.chess.engine.classic.board.Board.Builder;
-import com.chess.engine.classic.pieces.King;
-import com.chess.engine.classic.pieces.Pawn;
-import com.chess.engine.classic.player.ai.PawnStructureAnalyzer;
-import com.chess.engine.classic.player.ai.StandardBoardEvaluator;
-import com.chess.pgn.FenUtilities;
+import com.ches.engine.classic.Alliance;
+import com.ches.engine.classic.board.Board;
+import com.ches.engine.classic.board.Board.Builder;
+import com.ches.engine.classic.pieces.King;
+import com.ches.engine.classic.pieces.Pawn;
+import com.ches.engine.classic.player.ai.PawnStructureAnalyzer;
+import com.ches.engine.classic.player.ai.StandardBoardEvaluator;
+import com.ches.pgn.FenUtilities;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;

@@ -1,4 +1,4 @@
-package com.chess.tests;
+package com.ches.tests;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

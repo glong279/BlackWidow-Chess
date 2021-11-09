@@ -1,12 +1,12 @@
-package com.chess.tests;
+package com.ches.tests;
 
-import com.chess.engine.classic.Alliance;
-import com.chess.engine.classic.board.*;
-import com.chess.engine.classic.board.Board.Builder;
-import com.chess.engine.classic.board.Move.MoveFactory;
-import com.chess.engine.classic.pieces.*;
-import com.chess.engine.classic.player.ai.BoardEvaluator;
-import com.chess.engine.classic.player.ai.StandardBoardEvaluator;
+import com.ches.engine.classic.Alliance;
+import com.ches.engine.classic.board.*;
+import com.ches.engine.classic.board.Board.Builder;
+import com.ches.engine.classic.board.Move.MoveFactory;
+import com.ches.engine.classic.pieces.*;
+import com.ches.engine.classic.player.ai.BoardEvaluator;
+import com.ches.engine.classic.player.ai.StandardBoardEvaluator;
 import com.google.common.collect.Iterables;
 import org.junit.Test;
 

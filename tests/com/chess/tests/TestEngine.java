@@ -1,9 +1,9 @@
-package com.chess.tests;
+package com.ches.tests;
 
-import com.chess.engine.classic.board.Board;
-import com.chess.engine.classic.player.ai.MiniMax;
-import com.chess.engine.classic.player.ai.MoveStrategy;
-import com.chess.pgn.FenUtilities;
+import com.ches.engine.classic.board.Board;
+import com.ches.engine.classic.player.ai.MiniMax;
+import com.ches.engine.classic.player.ai.MoveStrategy;
+import com.ches.pgn.FenUtilities;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

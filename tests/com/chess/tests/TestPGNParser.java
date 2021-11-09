@@ -1,4 +1,4 @@
-package com.chess.tests;
+package com.ches.tests;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,89 +7,89 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.chess.pgn.MySqlGamePersistence;
-import com.chess.pgn.PGNUtilities;
-import com.chess.pgn.ParsePGNException;
-import com.chess.engine.classic.board.Board;
-import com.chess.engine.classic.board.Move;
-import com.chess.engine.classic.board.MoveTransition;
+import com.ches.pgn.MySqlGamePersistence;
+import com.ches.pgn.PGNUtilities;
+import com.ches.pgn.ParsePGNException;
+import com.ches.engine.classic.board.Board;
+import com.ches.engine.classic.board.Move;
+import com.ches.engine.classic.board.MoveTransition;
 import com.google.common.io.Resources;
 
 public class TestPGNParser {
 
     @Test
     public void test1() throws IOException {
-        doTest("com/chess/tests/pgn/t1.pgn");
+        doTest("com/ches/tests/pgn/t1.pgn");
     }
 
     @Test
     public void test2() throws IOException {
-        doTest("com/chess/tests/pgn/t2.pgn");
+        doTest("com/ches/tests/pgn/t2.pgn");
     }
 
     @Test
     public void test3() throws IOException {
-        doTest("com/chess/tests/pgn/t3.pgn");
+        doTest("com/ches/tests/pgn/t3.pgn");
     }
 
     @Test
     public void test4() throws IOException {
-        doTest("com/chess/tests/pgn/t4.pgn");
+        doTest("com/ches/tests/pgn/t4.pgn");
     }
 
     @Test
     public void test5() throws IOException {
-        doTest("com/chess/tests/pgn/smallerTest.pgn");
+        doTest("com/ches/tests/pgn/smallerTest.pgn");
     }
 
     @Test
     public void test6() throws IOException {
-        doTest("com/chess/tests/pgn/t6.pgn");
+        doTest("com/ches/tests/pgn/t6.pgn");
     }
 
     @Test
     public void test8() throws IOException {
-        doTest("com/chess/tests/pgn/t8.pgn");
+        doTest("com/ches/tests/pgn/t8.pgn");
     }
 
     @Test
     public void test9() throws IOException {
-        doTest("com/chess/tests/pgn/t9.pgn");
+        doTest("com/ches/tests/pgn/t9.pgn");
     }
 
     @Test
     public void testPawnPromotion() throws IOException {
-        doTest("com/chess/tests/pgn/queenPromotion.pgn");
+        doTest("com/ches/tests/pgn/queenPromotion.pgn");
     }
 
     @Test
     public void test10() throws IOException {
-        doTest("com/chess/tests/pgn/t10.pgn");
+        doTest("com/ches/tests/pgn/t10.pgn");
     }
 
     @Test
     public void test11() throws IOException {
-        doTest("com/chess/tests/pgn/bigTest.pgn");
+        doTest("com/ches/tests/pgn/bigTest.pgn");
     }
 
     @Test
     public void test12() throws IOException {
-        doTest("com/chess/tests/pgn/twic1047.pgn");
+        doTest("com/ches/tests/pgn/twic1047.pgn");
     }
 
     @Test
     public void test13() throws IOException {
-        doTest("com/chess/tests/pgn/twic1046.pgn");
+        doTest("com/ches/tests/pgn/twic1046.pgn");
     }
 
     @Test
     public void test14() throws IOException {
-        doTest("com/chess/tests/pgn/combined.pgn");
+        doTest("com/ches/tests/pgn/combined.pgn");
     }
 
     @Test
     public void test15() throws IOException {
-        doTest("com/chess/tests/pgn/c2012.pgn");
+        doTest("com/ches/tests/pgn/c2012.pgn");
     }
 
     @Test

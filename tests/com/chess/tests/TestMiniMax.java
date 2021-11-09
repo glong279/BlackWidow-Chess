@@ -1,15 +1,15 @@
-package com.chess.tests;
+package com.ches.tests;
 
-import com.chess.engine.classic.Alliance;
-import com.chess.engine.classic.board.Board;
-import com.chess.engine.classic.board.Board.Builder;
-import com.chess.engine.classic.board.BoardUtils;
-import com.chess.engine.classic.board.Move;
-import com.chess.engine.classic.board.MoveTransition;
-import com.chess.engine.classic.pieces.*;
-import com.chess.engine.classic.player.ai.MiniMax;
-import com.chess.engine.classic.player.ai.MoveStrategy;
-import com.chess.pgn.FenUtilities;
+import com.ches.engine.classic.Alliance;
+import com.ches.engine.classic.board.Board;
+import com.ches.engine.classic.board.Board.Builder;
+import com.ches.engine.classic.board.BoardUtils;
+import com.ches.engine.classic.board.Move;
+import com.ches.engine.classic.board.MoveTransition;
+import com.ches.engine.classic.pieces.*;
+import com.ches.engine.classic.player.ai.MiniMax;
+import com.ches.engine.classic.player.ai.MoveStrategy;
+import com.ches.pgn.FenUtilities;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
